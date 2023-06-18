@@ -1,11 +1,10 @@
 import { useState } from "react";
 import Accordion from "./Accordion";
-import Reveal from "./Reveal";
 import Badge from "./Badge";
 import Button from "./Button";
 import { BsCheckLg } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { fadeDown } from "../styles/Animation";
+import { fadeDown, fadeToRight } from "../styles/Animation";
 
 function Pricing() {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -14,14 +13,24 @@ function Pricing() {
     <div className="w-full max-w-screen-xl mx-auto p-10 flex flex-col justify-center items-center">
       <div className="max-w-lg flex flex-col justify-center items-center text-center">
         <Badge label="PRICING" />
-        <Reveal>
-          <div className="w-full h-20 flex font-semibold text-4xl md:text-5xl mt-4">
-            Plans for every budget
-          </div>
-        </Reveal>
-        <p className="text-china-blue text-lg mt-3">
+        <motion.div
+          variants={fadeToRight}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ delay: 0.7 }}
+          className="w-full flex font-semibold text-4xl md:text-5xl mt-4"
+        >
+          Plans for every budget
+        </motion.div>
+        <motion.p
+          variants={fadeDown}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ delay: 0.8 }}
+          className="text-china-blue text-lg mt-3"
+        >
           {`Whether you're a small business, or a large corporation, we have a plan that's right for you.`}
-        </p>
+        </motion.p>
       </div>
       <div className="w-full mt-16 lg:flex gap-8">
         <motion.div
