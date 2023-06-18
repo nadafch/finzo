@@ -21,7 +21,7 @@ function Value() {
       <div className="w-full bg-dr-white min-h-[632px] rounded-xl bg-circularPattern2 bg-cover bg-no-repeat mx-auto px-5 md:px-24 lg:flex gap-5 items-center">
         <div className="w-full lg:w-2/5 p-10">
           <Reveal>
-            <div className="text-[38px] md:text-5xl font-semibold">
+            <div className="text-[38px] md:text-5xl font-medium">
               We are a strategic choice
             </div>
           </Reveal>

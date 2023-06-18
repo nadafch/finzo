@@ -94,7 +94,7 @@ function Pricing() {
           </div>
         </motion.div>
       </div>
-      <div className="mt-28 text-4xl">FAQ</div>
+      <div className="mt-28 text-5xl font-medium">FAQ</div>
       <div className="w-full flex flex-col items-center justify-center gap-8 mt-10">
         <motion.div
           variants={fadeDown}
