@@ -11,7 +11,7 @@ import Footer from "../component/Footer";
 
 function Homepage() {
   return (
-    <div className="relative">
+    <div className="w-full overflow-x-hidden">
       <Banner />
       <Navbar />
       <Hero />

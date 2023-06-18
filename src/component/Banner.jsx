@@ -23,7 +23,7 @@ function Banner() {
       animate={{ y: "0%" }}
       transition={{ type: "spring" }}
     >
-      <div className="w-full bg-lacustral flex justify-center items-center text-gulf-harbour-500 py-4  sticky top-0 z-[999] text-xs md:text-base">
+      <div className="w-full bg-lacustral flex justify-center items-center text-gulf-harbour-500 py-4  relative text-xs md:text-base">
         <span className="font-extrabold">Announcing our Series A </span>— Finzo
         raises $40m for better environment.{" "}
         <span className="mx-2 font-bold underline">Learn More</span>

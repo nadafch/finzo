@@ -5,7 +5,7 @@ import { AiOutlineMinus } from "react-icons/ai";
 function Accordion(props) {
   const { title, index, activeIndex, onClick, children } = props;
   return (
-    <div className="w-[400px] md:w-[800px] bg-dr-white rounded-2xl px-0 shadow-md ">
+    <div className="w-[300px] md:w-[600px] lg:w-[800px] bg-dr-white rounded-2xl px-0 shadow-md ">
       <div className="text-base md:text-xl border-b-2 px-6 py-6 relative">
         <div className="w-full max-w-[80%]">{title}</div>
         <div className="absolute right-0 top-1/4 mr-5">

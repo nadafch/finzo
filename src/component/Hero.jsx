@@ -11,7 +11,7 @@ import { fadeDown, fadeToLeft, fadeToRight } from "../styles/Animation";
 
 function Hero() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 mb-10 md:mb-20">
+    <div className="w-full max-w-screen-xl min-h-[812px] mx-auto grid grid-cols-1 md:grid-cols-2 mb-10 md:mb-20">
       <div className="col-span-1 flex flex-col justify-center ml-10 md:ml-14 md:mt-0 order-2">
         <motion.div
           variants={fadeToRight}
