@@ -22,7 +22,7 @@ function Hero() {
           <Badge label="MODERN BANK" />
         </motion.div>
         <Reveal>
-          <div className="mt-3 font-bold text-4xl md:text-6xl">
+          <div className="mt-2 font-medium text-4xl md:text-6xl">
             {`We're building the future banking just for you`}
           </div>
         </Reveal>

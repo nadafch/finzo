@@ -33,7 +33,7 @@ function Currency() {
           <Badge label="CURRENCY" />
         </motion.div>
         <Reveal reverse>
-          <div className="w-3/4 mt-4 text-3xl lg:text-5xl font-semibold">
+          <div className="w-3/4 mt-4 text-3xl lg:text-5xl font-medium">
             Hold and send money in 190+ currencies
           </div>
         </Reveal>

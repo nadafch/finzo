@@ -18,7 +18,7 @@ function Pricing() {
           initial="hidden"
           whileInView="visible"
           transition={{ delay: 0.7 }}
-          className="w-full flex font-semibold text-4xl md:text-5xl mt-4"
+          className="w-full flex font-medium text-4xl md:text-5xl mt-4"
         >
           Plans for every budget
         </motion.div>

@@ -4,13 +4,18 @@
 
 @font-face {
   font-family: "Aeonik";
+  font-weight: 700;
+  src: url("../src/assets/font/Aeonik-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aeonik";
   font-weight: 500;
-  src: url("../../src/assets/font/Aeonik-Regular.otf") format("opentype");
+  src: url("../src/assets/font/Aeonik-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "Aeonik";
   font-weight: 400;
-  src: url("../../src/assets/font/Aeonik-Light.otf") format("opentype");
+  src: url("../src/assets/font/Aeonik-Light.otf") format("opentype");
 }
 
 * {

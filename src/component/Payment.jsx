@@ -20,7 +20,7 @@ function Payment() {
           <Badge label="PAYMENT" />
         </motion.div>
         <Reveal>
-          <div className="w-3/4 min-h-28 mt-4 text-3xl lg:text-5xl font-semibold">
+          <div className="w-3/4 min-h-28 mt-4 text-3xl lg:text-5xl font-medium">
             Sending money, easy by the default
           </div>
         </Reveal>

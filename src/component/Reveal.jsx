@@ -24,7 +24,7 @@ function Reveal(props) {
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.6, ease: "easeIn", delay: 0.2 }}
-        className="absolute top-4 bottom-0 left-0 right-0 bg-weak-green z-10"
+        className="absolute top-4 bottom-4 left-0 right-0 bg-weak-green z-10"
       />
     </div>
   );

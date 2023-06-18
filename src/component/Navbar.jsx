@@ -4,7 +4,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
 import Button from "../component/Button";
 import { motion } from "framer-motion";
-import { fadeDown } from "../styles/Animation";
+import { fadeDown, fadeToLeft } from "../styles/Animation";
 
 function Navbar() {
   return (
@@ -50,7 +50,12 @@ function Navbar() {
             </motion.div>
           </div>
 
-          <div className="col-start-8 lg:col-start-9 flex items-center">
+          <motion.div
+            variants={fadeToLeft}
+            initial="hidden"
+            animate="visible"
+            className="col-start-8 lg:col-start-9 flex items-center"
+          >
             <div className="hidden md:flex items-center gap-1 cursor-pointer">
               <img src={UK} alt="languange_flag" />
               <h1>EN</h1>
@@ -62,7 +67,7 @@ function Navbar() {
               <Button type="outlined">Login</Button>
               <Button>SignUp</Button>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
