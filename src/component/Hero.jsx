@@ -1,5 +1,5 @@
 import Button from "./Button";
-import OpenAi from "../assets/image/OpenAi.svg";
+import OpenAi from "../assets/image/OpenAI.svg";
 import Ramp from "../assets/image/Ramp.svg";
 import Raycast from "../assets/image/Raycast.svg";
 import homepageImage from "../assets/image/homepageImage.svg";
