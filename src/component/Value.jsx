@@ -69,7 +69,9 @@ function Value() {
             className="col-span-1"
           >
             <div className="w-fit rounded-full p-3 bg-weak-green hover:scale-110 transition-all">
-              <img src={passcode} />
+              <motion.div variants={shake} initial="initial" whileHover="hover">
+                <img src={passcode} />
+              </motion.div>
             </div>
             <div className="text-xl md:text-2xl font-medium mt-6">
               Authentication
@@ -86,7 +88,9 @@ function Value() {
             className="col-span-1"
           >
             <div className="w-fit rounded-full p-3 bg-weak-green hover:scale-110 transition-all">
-              <img src={bank} />
+              <motion.div variants={shake} initial="initial" whileHover="hover">
+                <img src={bank} />
+              </motion.div>
             </div>
             <div className="text-xl md:text-2xl font-medium mt-6">
               Safety Funds
@@ -103,7 +107,9 @@ function Value() {
             className="col-span-1"
           >
             <div className="w-fit rounded-full p-3 bg-weak-green hover:scale-110 transition-all">
-              <img src={user} />
+              <motion.div variants={shake} initial="initial" whileHover="hover">
+                <img src={user} />
+              </motion.div>
             </div>
             <div className="text-xl md:text-2xl font-medium mt-6">
               Account Place
