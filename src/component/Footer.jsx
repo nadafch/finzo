@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className="w-full bg-gulf-harbour-500 text-white px-8 md:px-24 py-4">
       <div className="w-full max-w-screen-xl lg:flex flex-col md:flex-row flex-wrap mt-10">
-        <div className="w-full lg:w-2/3 grid grid-cols-4 gap-4">
+        <div className="w-full lg:w-2/3 grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="col-span-1 flex flex-col gap-3">
             <h2 className="font-medium text-lg">Platform</h2>
             <p className="font-light">Multi-virtual Card</p>
