@@ -6,7 +6,7 @@ import Currency from "../component/Currency";
 import Payment from "../component/Payment";
 import Value from "../component/Value";
 import Pricing from "../component/Pricing";
-import Cta from "../component/CTA";
+import Cta from "../component/cta";
 import Footer from "../component/Footer";
 
 function Homepage() {
