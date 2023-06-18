@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 500;
+  src: url("../../src/assets/font/Aeonik-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aeonik";
+  font-weight: 400;
+  src: url("../../src/assets/font/Aeonik-Light.otf") format("opentype");
+}
+
+* {
+  font-family: "Aeonik", sans-serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
